@@ -12,6 +12,34 @@ Good bye ChatGPT plugin and meooww
 
 ---
 
+替换了logo, logo是使用DALL-E简单生成的, prompt如下:
+
+```text
+A cute tricolor Maine Coon cat sitting beside two checkboxes, one checked and one empty, in a playful and adorable style, as part of a To-Do list app illustration
+```
+
+Plugin for id complete-manifest-6e92cb9c-7234-437a-b765-78802486d9fe not found
+
+本地运行的常见错误. 我们可以看到, 这个插件的id是 complete-manifest-6e92cb9c-7234-437a-b765-78802486d9fe.
+
+```text
+Validated manifest
+Validated OpenAPI spec
+Prompt for ChatGPT
+```
+
+这个错误的原因估计是, 我们在本地运行的时候, 会自动加载本地的插件, 但是在ChatGPT上运行的时候, 会自动加载线上的插件.
+
+以及however, 我们成功地在本地加载了这个插件, 只是在ChatGPT上运行的时候, 却出现了这个错误.
+
+![Image description](2023-12-22%20033932.png)
+
+GLHF!~ 冬季安康!~
+
+- [ ] GPTs的尝试
+
+---
+
 Get a todo list ChatGPT plugin up and running in under 5 minutes using Python. This plugin is designed to work in conjunction with the [ChatGPT plugins documentation](https://platform.openai.com/docs/plugins). If you do not already have plugin developer access, please [join the waitlist](https://openai.com/waitlist/plugins).
 
 ## Setup locally
